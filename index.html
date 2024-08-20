@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    
+    <div class="to-do-list-container" id="todoListContainer">
+        <div class="to-do-section">
+            <h2>Todo List Sayfası</h2>
+        </div>
+       
+        <div class="to-do-section">
+            <input type="text" name="ekleme" id="ekleme" placeholder="Todo Giriniz">
+            <button type="button" id="ekle">Todo Ekleyin</button>
+        </div>
+
+        <div class="to-do-section">
+            <h2>Todo Listesi</h2>
+            <input type="text" name="arama" id="arama" placeholder="Todo Arayınız" >
+
+            <ul class="todo-list">
+                <!-- <li class='todo-item'> 123 <button class='tekliSil'> X </button> </li> -->
+            </ul>
+
+            <button type="button" id="tumunu-sil">Tüm Todoları Temizle</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
